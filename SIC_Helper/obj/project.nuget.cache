@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "7leTanca0L5ZXvqZ74VHp3RmCTn/S044Lcm4pSisAe4ZiYQpSijNYd2y8Wxz0op/3GKQ9MW+gmK9fC+eH4dPdA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mh7cp\\Desktop\\프로젝트(진행중)\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mh7cp\\.nuget\\packages\\inputsimulator\\1.0.4\\inputsimulator.1.0.4.nupkg.sha512",
+    "C:\\Users\\mh7cp\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\mh7cp\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'InputSimulator 1.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "InputSimulator",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

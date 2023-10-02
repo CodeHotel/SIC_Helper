@@ -1,0 +1,19 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SIC_Helper"
+        xmlns:Resizeables="clr-namespace:DrawNet_WPF.Resizeables;assembly=DrawNet_WPF" x:Class="SIC_Helper.CaptureWindow"
+        mc:Ignorable="d"
+        Title="SIC헬퍼 캡쳐" Height="900" Width="1600"
+        AllowsTransparency="True" WindowStyle="None"
+        Topmost="true"
+        WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="Transparent" StateChanged="Window_StateChanged" Loaded="Window_Loaded">
+    <Canvas>
+        <Resizeables:ResizeWrapper Width="100" Height="100" x:Name="recordRect" Stroke="Red">
+            <Rectangle Width="100" Height="100" Fill="Transparent" x:Name="CaptureArea"/>
+        </Resizeables:ResizeWrapper>
+
+    </Canvas>
+</Window>

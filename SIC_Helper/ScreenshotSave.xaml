@@ -1,0 +1,22 @@
+﻿<Window x:Class="SIC_Helper.ScreenshotSave"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SIC_Helper"
+        mc:Ignorable="d"
+        Title="저장하기" Height="200" Width="250" Background="#FF333333">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition />
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Label Content="파일명: " Grid.Row="0" Foreground="White"/>
+        <TextBox Grid.Row="0" Width="190" HorizontalAlignment="Right" Background="Black" Foreground="LightGreen" x:Name="TitleTB"/>
+        <Label Content="설명: " Grid.Row="1" Foreground="White" FontSize="8"/>
+        <TextBox Grid.Row="2" Background="Black" Foreground="Orange" x:Name="DescriptionTB"/>
+        <Button Content="저장" Grid.Row="3" Background="#FF555555" Foreground="White" FontSize="10" Click="Button_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,95 @@
+﻿<Window x:Class="SIC_Helper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SIC_Helper"
+        Background="#FF333333"
+        mc:Ignorable="d"
+        Title="DOSBox 실습 매크로             -by 20학번 정상원-" Height="450" Width="800" Closing="Window_Closing" StateChanged="Window_StateChanged" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Foreground="White" Content="저장 경로: " Grid.Row="0" Grid.Column="0"/>
+            <TextBox Foreground="Black" Background="#FFAAAAAA" Width="200" Text="C:\Users\Public\Desktop\SIC_Screenshots" Grid.Row="0" Grid.Column="1" VerticalContentAlignment="Center" x:Name="TB0" IsReadOnly="True" TextChanged="TB0_TextChanged"/>
+            <Button Foreground="White" Background="#FF222222" Content="📁" Grid.Row="0" Grid.Column="2" VerticalContentAlignment="Center" Margin="0,0,0,0" Padding="5,0,5,0" Click="OpenFolder"/>
+
+            <Label Foreground="White" Content="DOSBox 상태: " Grid.Row="1" Grid.Column="0"/>
+            <Label Foreground="Red" Content="검색되지 않음" Grid.Row="1" Grid.Column="1" x:Name="DosStatus"/>
+            <Button Foreground="White" Background="#FF222222" Content="↻" Grid.Row="1" Grid.Column="2" VerticalContentAlignment="Center" Margin="0,0,0,0" Padding="5,0,5,0" Click="Refresh_Click"/>
+
+            <Button Foreground="White" Background="#FF222222" Content="📷" FontSize="23" Grid.Row="10" Grid.ColumnSpan="3" Height="35" VerticalContentAlignment="Center" Padding="5,0,5,0" Click="ScreenShot_Click"/>
+
+            <Label Foreground="White" Content="1. 마운트: " Grid.Row="2" Grid.Column="0"/>
+            <TextBox Foreground="Black" Background="#FFAAAAAA" Width="200" Text="mount C C:\sic$C:$" Grid.Row="2" Grid.Column="1" VerticalContentAlignment="Center" x:Name="TB1"/>
+            <Button Foreground="White" Background="#FF222222" Content="▶" Grid.Row="2" Grid.Column="2" VerticalContentAlignment="Center" Margin="0,0,0,0" Padding="5,0,5,0" Click="macro1"/>
+
+            <Label Foreground="White" Content="2. 어셈블: " Grid.Row="3" Grid.Column="0"/>
+            <TextBox Foreground="Black" Background="#FFAAAAAA" Width="200" Text="sicasm.exe$del devf2$ren objfile devf2$l2u devf2$" Grid.Row="3" Grid.Column="1" VerticalContentAlignment="Center" x:Name="TB2"/>
+            <Button Foreground="White" Background="#FF222222" Content="▶" Grid.Row="3" Grid.Column="2" VerticalContentAlignment="Center" Margin="0,0,0,0" Padding="5,0,5,0" Click="macro2"/>
+
+            <Label Foreground="White" Content="3. SIC실행/설정: " Grid.Row="4" Grid.Column="0"/>
+            <TextBox Foreground="Black" Background="#FFAAAAAA" Width="200" Text="sicsim.exe$s$b 1000$" Grid.Row="4" Grid.Column="1" VerticalContentAlignment="Center" x:Name="TB3"/>
+            <Button Foreground="White" Background="#FF222222" Content="▶" Grid.Row="4" Grid.Column="2" VerticalContentAlignment="Center" Margin="0,0,0,0" Padding="5,0,5,0" Click="macro3"/>
+
+            <Label Foreground="White" Content="5. 로드:  " Grid.Row="5" Grid.Column="0"/>
+            <TextBox Foreground="Black" Background="#FFAAAAAA" Width="200" Text="r$" Grid.Row="5" Grid.Column="1" VerticalContentAlignment="Center" x:Name="TB4"/>
+            <Button Foreground="White" Background="#FF222222" Content="▶" Grid.Row="5" Grid.Column="2" VerticalContentAlignment="Center" Margin="0,0,0,0" Padding="5,0,5,0" Click="macro4"/>
+            
+            <Label Foreground="White" Content="4. 1단계로 설정:" Grid.Row="6" Grid.Column="0"/>
+            <TextBox Foreground="Black" Background="#FFAAAAAA" Width="200" Text="h 1$" Grid.Row="6" Grid.Column="1" VerticalContentAlignment="Center" x:Name="TB5"/>
+            <Button Foreground="White" Background="#FF222222" Content="▶" Grid.Row="6" Grid.Column="2" VerticalContentAlignment="Center" Margin="0,0,0,0" Padding="5,0,5,0" Click="macro5"/>
+
+            <Label Foreground="White" Content="6. 덤프: " Grid.Row="7" Grid.Column="0"/>
+            <TextBox Foreground="Black" Background="#FFAAAAAA" Width="200" Text="d r,1000-1040$" Grid.Row="7" Grid.Column="1" VerticalContentAlignment="Center" x:Name="TB7"/>
+            <Button Foreground="White" Background="#FF222222" Content="▶" Grid.Row="7" Grid.Column="2" VerticalContentAlignment="Center" Margin="0,0,0,0" Padding="5,0,5,0" Click="macro7"/>
+
+            <Label Foreground="White" Content="7. 실행: " Grid.Row="8" Grid.Column="0"/>
+            <TextBox Foreground="Black" Background="#FFAAAAAA" Width="200" Text="r$" Grid.Row="8" Grid.Column="1" VerticalContentAlignment="Center" x:Name="TB8"/>
+            <Button Foreground="White" Background="#FF222222" Content="▶" Grid.Row="8" Grid.Column="2" VerticalContentAlignment="Center" Margin="0,0,0,0" Padding="5,0,5,0" Click="macro8"/>
+
+            <ListBox ItemsSource="{Binding FileItems}" Grid.Row="11" Grid.ColumnSpan="3" Background="#FF111111" SelectionChanged="ListBox_SelectionChanged">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Text="{Binding Filename}" Grid.Column="0" Foreground="LightGreen"/>
+                            <TextBlock Text="{Binding Description}" Grid.Column="1" Margin="5,0,0,0" Foreground="Orange"/>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+        </Grid>
+        <Grid Grid.Column="1">
+            <Image Stretch="Uniform" x:Name="displayImage"/>
+        </Grid>
+    </Grid>
+</Window>
