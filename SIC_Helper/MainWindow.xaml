@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:SIC_Helper"
         Background="#FF333333"
         mc:Ignorable="d"
-        Title="DOSBox 실습 매크로             -by 20학번 정상원-" Height="450" Width="800" Closing="Window_Closing" StateChanged="Window_StateChanged" Loaded="Window_Loaded">
+        Title="DOSBox 실습 매크로             -by 20학번 정상원-" Height="450" Width="800" Closing="Window_Closing" StateChanged="Window_StateChanged" Loaded="Window_Loaded"
+        xml:lang="ko-KR"
+        Icon="ICO/SIC.ico">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>

@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SIC_Helper"
         mc:Ignorable="d"
-        Title="저장하기" Height="200" Width="250" Background="#FF333333">
+        Title="저장하기" Height="200" Width="250" Background="#FF333333"
+        Icon="ICO/SIC.ico">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="25"/>

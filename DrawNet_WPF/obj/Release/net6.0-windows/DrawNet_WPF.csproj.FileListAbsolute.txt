@@ -1,0 +1,15 @@
+C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\bin\Release\net6.0-windows\DrawNet_WPF.deps.json
+C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\bin\Release\net6.0-windows\DrawNet_WPF.dll
+C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\bin\Release\net6.0-windows\DrawNet_WPF.pdb
+C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\obj\Release\net6.0-windows\DrawNet_WPF.csproj.AssemblyReference.cache
+C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\obj\Release\net6.0-windows\Themes\Generic.baml
+C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\obj\Release\net6.0-windows\DrawNet_WPF_MarkupCompile.cache
+C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\obj\Release\net6.0-windows\DrawNet_WPF.g.resources
+C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\obj\Release\net6.0-windows\DrawNet_WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\obj\Release\net6.0-windows\DrawNet_WPF.AssemblyInfoInputs.cache
+C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\obj\Release\net6.0-windows\DrawNet_WPF.AssemblyInfo.cs
+C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\obj\Release\net6.0-windows\DrawNet_WPF.csproj.CoreCompileInputs.cache
+C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\obj\Release\net6.0-windows\DrawNet_WPF.dll
+C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\obj\Release\net6.0-windows\refint\DrawNet_WPF.dll
+C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\obj\Release\net6.0-windows\DrawNet_WPF.pdb
+C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\obj\Release\net6.0-windows\ref\DrawNet_WPF.dll

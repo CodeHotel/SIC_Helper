@@ -9,7 +9,8 @@
         Title="SIC헬퍼 캡쳐" Height="900" Width="1600"
         AllowsTransparency="True" WindowStyle="None"
         Topmost="true"
-        WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="Transparent" StateChanged="Window_StateChanged" Loaded="Window_Loaded">
+        WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="Transparent" StateChanged="Window_StateChanged" Loaded="Window_Loaded"
+    Icon="ICO/SIC.ico">
     <Canvas>
         <Resizeables:ResizeWrapper Width="100" Height="100" x:Name="recordRect" Stroke="Red">
             <Rectangle Width="100" Height="100" Fill="Transparent" x:Name="CaptureArea"/>
