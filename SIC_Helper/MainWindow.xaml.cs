@@ -293,7 +293,7 @@ namespace SIC_Helper
         private async Task SendKeyboardInput(string input)
         {
             // return if the string does not comply with the rules
-            if (!Regex.IsMatch(input, @"^[a-zA-Z0-9\.,\\ $\-:]+$"))
+            if (!Regex.IsMatch(input, @"^[~a-zA-Z0-9\.,\\ $\-:]+$"))
             {
                 Application.Current.Dispatcher.Invoke(() =>
                 {
@@ -312,6 +312,11 @@ namespace SIC_Helper
                 var command = commands[i];
                 foreach (var character in command)
                 {
+                    if(character == '~')
+                    {
+                        await Task.Delay(500);
+                        continue;
+                    }
                     VirtualKeyCode vkCode;
                     switch (character)
                     {

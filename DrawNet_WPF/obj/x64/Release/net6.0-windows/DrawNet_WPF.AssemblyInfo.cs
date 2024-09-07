@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DrawNet_WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c57e003844f0875588c62f997b779948c08a2d94")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20be1e2f00e2c7a58cf21db0d322e89a1b84db3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DrawNet_WPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DrawNet_WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -50,7 +50,7 @@
             <Button Foreground="White" Background="#FF222222" Content="▶" Grid.Row="2" Grid.Column="2" VerticalContentAlignment="Center" Margin="0,0,0,0" Padding="5,0,5,0" Click="macro1"/>
 
             <Label Foreground="White" Content="2. 어셈블: " Grid.Row="3" Grid.Column="0"/>
-            <TextBox Foreground="Black" Background="#FFAAAAAA" Width="200" Text="sicasm.exe$del devf2$ren objfile devf2$l2u devf2$" Grid.Row="3" Grid.Column="1" VerticalContentAlignment="Center" x:Name="TB2"/>
+            <TextBox Foreground="Black" Background="#FFAAAAAA" Width="200" Text="sicasm.exe$~~~del devf2$ren objfile devf2$l2u devf2$" Grid.Row="3" Grid.Column="1" VerticalContentAlignment="Center" x:Name="TB2"/>
             <Button Foreground="White" Background="#FF222222" Content="▶" Grid.Row="3" Grid.Column="2" VerticalContentAlignment="Center" Margin="0,0,0,0" Padding="5,0,5,0" Click="macro2"/>
 
             <Label Foreground="White" Content="3. SIC실행/설정: " Grid.Row="4" Grid.Column="0"/>

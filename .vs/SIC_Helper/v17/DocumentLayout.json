@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{E5F32C3F-20F7-4759-A1CA-3947BA53F37A}|SIC_Helper\\SIC_Helper.csproj|solutionrelative:sic_helper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E5F32C3F-20F7-4759-A1CA-3947BA53F37A}|SIC_Helper\\SIC_Helper.csproj|c:\\fproj\\sic_helper\\sic_helper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5F32C3F-20F7-4759-A1CA-3947BA53F37A}|SIC_Helper\\SIC_Helper.csproj|solutionrelative:sic_helper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F32C3F-20F7-4759-A1CA-3947BA53F37A}|SIC_Helper\\SIC_Helper.csproj|c:\\fproj\\sic_helper\\sic_helper\\savefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5F32C3F-20F7-4759-A1CA-3947BA53F37A}|SIC_Helper\\SIC_Helper.csproj|solutionrelative:sic_helper\\savefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E5F32C3F-20F7-4759-A1CA-3947BA53F37A}|SIC_Helper\\SIC_Helper.csproj|c:\\fproj\\sic_helper\\sic_helper\\sic_helper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E5F32C3F-20F7-4759-A1CA-3947BA53F37A}|SIC_Helper\\SIC_Helper.csproj|solutionrelative:sic_helper\\sic_helper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -23,15 +31,7 @@
       "RelativeMoniker": "D:0:0:{E5F32C3F-20F7-4759-A1CA-3947BA53F37A}|SIC_Helper\\SIC_Helper.csproj|solutionrelative:sic_helper\\capturewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5F32C3F-20F7-4759-A1CA-3947BA53F37A}|SIC_Helper\\SIC_Helper.csproj|c:\\fproj\\sic_helper\\sic_helper\\savefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5F32C3F-20F7-4759-A1CA-3947BA53F37A}|SIC_Helper\\SIC_Helper.csproj|solutionrelative:sic_helper\\savefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lecti\\AppData\\Local\\SourceServer\\9a2198c1b5fdd9848fe8d4b49a4a664fd29c5206e554acfd1fcb2623d8261168\\src\\libraries\\System.Private.CoreLib\\src\\Microsoft\\Win32\\SafeHandles\\SafeFileHandle.Windows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5F32C3F-20F7-4759-A1CA-3947BA53F37A}|SIC_Helper\\SIC_Helper.csproj|c:\\fproj\\sic_helper\\sic_helper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5F32C3F-20F7-4759-A1CA-3947BA53F37A}|SIC_Helper\\SIC_Helper.csproj|solutionrelative:sic_helper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5F32C3F-20F7-4759-A1CA-3947BA53F37A}|SIC_Helper\\SIC_Helper.csproj|c:\\fproj\\sic_helper\\sic_helper\\screenshotsave.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,53 +89,26 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SIC_Helper",
-              "DocumentMoniker": "C:\\fproj\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
-              "RelativeDocumentMoniker": "SIC_Helper\\SIC_Helper.csproj",
-              "ToolTip": "C:\\fproj\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
-              "RelativeToolTip": "SIC_Helper\\SIC_Helper.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-07T09:33:23.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DrawNet_WPF",
-              "DocumentMoniker": "C:\\fproj\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj",
-              "RelativeDocumentMoniker": "DrawNet_WPF\\DrawNet_WPF.csproj",
-              "ToolTip": "C:\\fproj\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj",
-              "RelativeToolTip": "DrawNet_WPF\\DrawNet_WPF.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-07T09:26:45.397Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SIC_Helper",
               "DocumentMoniker": "C:\\fproj\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
               "RelativeDocumentMoniker": "SIC_Helper\\SIC_Helper.csproj",
               "ToolTip": "C:\\fproj\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
               "RelativeToolTip": "SIC_Helper\\SIC_Helper.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-07T08:26:22.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T08:26:22.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SafeFileHandle.Windows.cs",
               "DocumentMoniker": "C:\\Users\\lecti\\AppData\\Local\\SourceServer\\9a2198c1b5fdd9848fe8d4b49a4a664fd29c5206e554acfd1fcb2623d8261168\\src\\libraries\\System.Private.CoreLib\\src\\Microsoft\\Win32\\SafeHandles\\SafeFileHandle.Windows.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\lecti\\AppData\\Local\\SourceServer\\9a2198c1b5fdd9848fe8d4b49a4a664fd29c5206e554acfd1fcb2623d8261168\\src\\libraries\\System.Private.CoreLib\\src\\Microsoft\\Win32\\SafeHandles\\SafeFileHandle.Windows.cs",
@@ -143,8 +116,7 @@
               "RelativeToolTip": "..\\..\\Users\\lecti\\AppData\\Local\\SourceServer\\9a2198c1b5fdd9848fe8d4b49a4a664fd29c5206e554acfd1fcb2623d8261168\\src\\libraries\\System.Private.CoreLib\\src\\Microsoft\\Win32\\SafeHandles\\SafeFileHandle.Windows.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAlwDgAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:33:32.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T08:33:32.777Z"
             },
             {
               "$type": "Document",
@@ -160,15 +132,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CaptureWindow.xaml",
               "DocumentMoniker": "C:\\fproj\\SIC_Helper\\SIC_Helper\\CaptureWindow.xaml",
               "RelativeDocumentMoniker": "SIC_Helper\\CaptureWindow.xaml",
               "ToolTip": "C:\\fproj\\SIC_Helper\\SIC_Helper\\CaptureWindow.xaml",
               "RelativeToolTip": "SIC_Helper\\CaptureWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-07T08:26:23.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T08:26:23.031Z"
             },
             {
               "$type": "Document",
@@ -179,8 +150,7 @@
               "ToolTip": "C:\\fproj\\SIC_Helper\\SIC_Helper\\ScreenshotSave.xaml",
               "RelativeToolTip": "SIC_Helper\\ScreenshotSave.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-07T08:26:23.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T08:26:23.034Z"
             },
             {
               "$type": "Document",
@@ -192,8 +162,7 @@
               "RelativeToolTip": "SIC_Helper\\ScreenshotSave.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:26:23.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T08:26:23.037Z"
             },
             {
               "$type": "Document",
@@ -205,8 +174,57 @@
               "RelativeToolTip": "SIC_Helper\\FlieViewModel.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwCwAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:26:23.04Z",
+              "WhenOpened": "2024-09-07T08:26:23.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\fproj\\SIC_Helper\\SIC_Helper\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SIC_Helper\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\fproj\\SIC_Helper\\SIC_Helper\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SIC_Helper\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAA8BAAAAAAAAAAAqwCcBAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T08:26:23.047Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaveFile.cs",
+              "DocumentMoniker": "C:\\fproj\\SIC_Helper\\SIC_Helper\\SaveFile.cs",
+              "RelativeDocumentMoniker": "SIC_Helper\\SaveFile.cs",
+              "ToolTip": "C:\\fproj\\SIC_Helper\\SIC_Helper\\SaveFile.cs",
+              "RelativeToolTip": "SIC_Helper\\SaveFile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T08:26:23.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DrawNet_WPF.csproj",
+              "DocumentMoniker": "C:\\fproj\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj",
+              "RelativeDocumentMoniker": "DrawNet_WPF\\DrawNet_WPF.csproj",
+              "ToolTip": "C:\\fproj\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj",
+              "RelativeToolTip": "DrawNet_WPF\\DrawNet_WPF.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-07T09:26:45.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SIC_Helper.csproj",
+              "DocumentMoniker": "C:\\fproj\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
+              "RelativeDocumentMoniker": "SIC_Helper\\SIC_Helper.csproj",
+              "ToolTip": "C:\\fproj\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
+              "RelativeToolTip": "SIC_Helper\\SIC_Helper.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-07T09:33:23.015Z"
             },
             {
               "$type": "Document",
@@ -218,21 +236,7 @@
               "RelativeToolTip": "SIC_Helper\\AssemblyInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:26:23.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\fproj\\SIC_Helper\\SIC_Helper\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "SIC_Helper\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\fproj\\SIC_Helper\\SIC_Helper\\MainWindow.xaml.cs",
-              "RelativeToolTip": "SIC_Helper\\MainWindow.xaml.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAD4vz8AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:26:23.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T08:26:23.044Z"
             },
             {
               "$type": "Document",
@@ -244,21 +248,7 @@
               "RelativeToolTip": "DrawNet_WPF\\Converters\\WindowOperations.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:26:23.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SaveFile.cs",
-              "DocumentMoniker": "C:\\fproj\\SIC_Helper\\SIC_Helper\\SaveFile.cs",
-              "RelativeDocumentMoniker": "SIC_Helper\\SaveFile.cs",
-              "ToolTip": "C:\\fproj\\SIC_Helper\\SIC_Helper\\SaveFile.cs",
-              "RelativeToolTip": "SIC_Helper\\SaveFile.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAzwDcAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:26:23.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T08:26:23.05Z"
             },
             {
               "$type": "Document",
@@ -270,8 +260,7 @@
               "RelativeToolTip": "DrawNet_WPF\\Resizeables\\WrapperSelection.cs",
               "ViewState": "AQIAABAAAAAAAAAAAIBJwEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:26:23.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T08:26:23.054Z"
             },
             {
               "$type": "Document",
@@ -283,8 +272,7 @@
               "RelativeToolTip": "DrawNet_WPF\\Converters\\SelectionEventArgs.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:26:23.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T08:26:23.057Z"
             },
             {
               "$type": "Document",
@@ -295,8 +283,7 @@
               "ToolTip": "C:\\fproj\\SIC_Helper\\DrawNet_WPF\\Themes\\Generic.xaml",
               "RelativeToolTip": "DrawNet_WPF\\Themes\\Generic.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-07T08:26:23.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T08:26:23.061Z"
             },
             {
               "$type": "Document",
@@ -308,8 +295,7 @@
               "RelativeToolTip": "SIC_Helper\\CaptureWindow.xaml.cs",
               "ViewState": "AQIAACsAAAAAAAAAAADwv00AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:26:23.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T08:26:23.064Z"
             },
             {
               "$type": "Document",
@@ -321,8 +307,7 @@
               "RelativeToolTip": "DrawNet_WPF\\Converters\\Vector.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:26:23.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T08:26:23.071Z"
             },
             {
               "$type": "Document",
@@ -334,8 +319,7 @@
               "RelativeToolTip": "DrawNet_WPF\\Converters\\DimensionChangedEventArgs.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:26:23.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T08:26:23.074Z"
             },
             {
               "$type": "Document",
@@ -347,8 +331,7 @@
               "RelativeToolTip": "DrawNet_WPF\\Converters\\ComponentProperties.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:26:23.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T08:26:23.077Z"
             }
           ]
         }
