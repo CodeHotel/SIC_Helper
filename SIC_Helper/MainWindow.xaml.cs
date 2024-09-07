@@ -52,10 +52,14 @@ namespace SIC_Helper
         private BitmapSource tempImg;
         public MainWindow()
         {
-            if (System.IO.File.Exists("UserData"))
+            string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            string filePath = System.IO.Path.Combine(appDataPath, "UmJunSIC", "UserData");
+
+            if (System.IO.File.Exists(filePath))
             {
-                file = SaveFile.Deserialize("UserData");
+                file = SaveFile.Deserialize(filePath);
             }
+
             this.DataContext = new FileViewModel();
             InitializeComponent();
             capturewindow = new CaptureWindow();

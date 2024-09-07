@@ -41,12 +41,21 @@ namespace SIC_Helper
 
         public void SaveUserData()
         {
-            string filePath = "UserData"; // specify the file name
+            string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            string directoryPath = Path.Combine(appDataPath, "UmJunSIC");
+            string filePath = Path.Combine(directoryPath, "UserData");
+
+            if (!Directory.Exists(directoryPath))
+            {
+                Directory.CreateDirectory(directoryPath);
+            }
+
             using (Stream stream = new FileStream(filePath, FileMode.Create, FileAccess.Write))
             {
                 var formatter = new BinaryFormatter();
-                formatter.Serialize(stream, this); // serialize the current instance
+                formatter.Serialize(stream, this);
             }
         }
+
     }
 }

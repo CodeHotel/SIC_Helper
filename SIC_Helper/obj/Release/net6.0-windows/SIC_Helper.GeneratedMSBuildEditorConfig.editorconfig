@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SIC_Helper
-build_property.ProjectDir = C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\SIC_Helper\
+build_property.ProjectDir = C:\Users\lecti\Desktop\LocalProjects\SIC_Helper\SIC_Helper\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

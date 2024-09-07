@@ -173,23 +173,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mh7cp\\.nuget\\packages\\": {},
+    "C:\\Users\\lecti\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mh7cp\\Desktop\\프로젝트(진행중)\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
+      "projectUniqueName": "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
       "projectName": "SIC_Helper",
-      "projectPath": "C:\\Users\\mh7cp\\Desktop\\프로젝트(진행중)\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
-      "packagesPath": "C:\\Users\\mh7cp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mh7cp\\Desktop\\프로젝트(진행중)\\SIC_Helper\\SIC_Helper\\obj\\",
+      "projectPath": "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
+      "packagesPath": "C:\\Users\\lecti\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\SIC_Helper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mh7cp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lecti\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -205,8 +205,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\mh7cp\\Desktop\\프로젝트(진행중)\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj": {
-              "projectPath": "C:\\Users\\mh7cp\\Desktop\\프로젝트(진행중)\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj"
+            "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj": {
+              "projectPath": "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj"
             }
           }
         }
@@ -215,6 +215,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -241,6 +246,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.32, 6.0.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.32, 6.0.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.32, 6.0.32]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.32, 6.0.32]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -249,7 +272,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -258,7 +281,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "프로젝트 대상 프레임워크 'net6.0-windows7.0' 대신 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1'을(를) 사용하여 패키지 'InputSimulator 1.0.4'을(를) 복원했습니다. 이 패키지는 프로젝트와 완벽하게 호환되지 않을 수 있습니다.",
+      "message": "Package 'InputSimulator 1.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
       "libraryId": "InputSimulator",
       "targetGraphs": [
         "net6.0-windows7.0"

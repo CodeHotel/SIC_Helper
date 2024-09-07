@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Bxr0q9i/KxJfCKSipktljfKqiF2+OVOt5h0E06hApDIMElrIz/QVq2UlWMooK8X36IhcawwHQ2XuUEVsZZEgpg==",
+  "dgSpecHash": "jMojh40JKxunpwwJfCXw7rJYX8JWfUdv/BedUBT4NN7eW0GxknmtateVNLrZIsG2TsBv/Mk4Srq31qC8snXJyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mh7cp\\Desktop\\프로젝트(진행중)\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lecti\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.32\\microsoft.windowsdesktop.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\lecti\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.32\\microsoft.netcore.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\lecti\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.32\\microsoft.aspnetcore.app.ref.6.0.32.nupkg.sha512"
+  ],
   "logs": []
 }

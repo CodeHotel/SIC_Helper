@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DrawNet_WPF
-build_property.ProjectDir = C:\Users\mh7cp\Desktop\프로젝트(진행중)\SIC_Helper\DrawNet_WPF\
+build_property.ProjectDir = C:\Users\lecti\Desktop\LocalProjects\SIC_Helper\DrawNet_WPF\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

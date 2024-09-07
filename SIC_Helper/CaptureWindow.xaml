@@ -9,6 +9,7 @@
         Title="SIC헬퍼 캡쳐" Height="900" Width="1600"
         AllowsTransparency="True" WindowStyle="None"
         Topmost="true"
+        ShowInTaskbar="False"
         WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="Transparent" StateChanged="Window_StateChanged" Loaded="Window_Loaded"
     Icon="ICO/SIC.ico">
     <Canvas>
