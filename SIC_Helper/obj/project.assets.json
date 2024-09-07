@@ -179,11 +179,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
+      "projectUniqueName": "C:\\fproj\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
       "projectName": "SIC_Helper",
-      "projectPath": "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
+      "projectPath": "C:\\fproj\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
       "packagesPath": "C:\\Users\\lecti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\SIC_Helper\\obj\\",
+      "outputPath": "C:\\fproj\\SIC_Helper\\SIC_Helper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -205,8 +205,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj": {
-              "projectPath": "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj"
+            "C:\\fproj\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj": {
+              "projectPath": "C:\\fproj\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj"
             }
           }
         }

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\lecti\Desktop\LocalProjects\SIC_Helper\SIC_Helper\obj\Release\net6.0-windows\
+C:\fproj\SIC_Helper\SIC_Helper\obj\Release\net6.0-windows\
 SIC_Helper
 none
 false
 TRACE;RELEASE;NET;NET6_0;NETCOREAPP
-C:\Users\lecti\Desktop\LocalProjects\SIC_Helper\SIC_Helper\App.xaml
+C:\fproj\SIC_Helper\SIC_Helper\App.xaml
 3-439337938
 1378914432
 9406306121
-197-460641371
+197-855940977
 CaptureWindow.xaml;MainWindow.xaml;ScreenshotSave.xaml;
 
-False
+True
 

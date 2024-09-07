@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jMojh40JKxunpwwJfCXw7rJYX8JWfUdv/BedUBT4NN7eW0GxknmtateVNLrZIsG2TsBv/Mk4Srq31qC8snXJyA==",
+  "dgSpecHash": "78HxSH1zn9uTcZMCLx2l9jmnKOchXk9oHabu3tcNvABukp31sZ1CzJpmQnpwmnEn89x8MpabjAkADXIa55ugmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj",
+  "projectFilePath": "C:\\fproj\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lecti\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.32\\microsoft.windowsdesktop.app.ref.6.0.32.nupkg.sha512",
     "C:\\Users\\lecti\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.32\\microsoft.netcore.app.ref.6.0.32.nupkg.sha512",

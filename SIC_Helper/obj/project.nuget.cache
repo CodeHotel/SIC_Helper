@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fEUlq/w6GtZaaPoyn8rMdC12nFrta7Qn01ExnnGCjzMFmQNCN6V0k+gzgF0e/zSJQtBesXnlpATECEBw2KcPqg==",
+  "dgSpecHash": "xkipg+RLeAdG0ox9p/ZMkGnwvE9Qk5dFpoByqVedR/sOslyOFjPKJNKv2QvuTo7wUZIJFWfqlfdx8U7PV1hiVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
+  "projectFilePath": "C:\\fproj\\SIC_Helper\\SIC_Helper\\SIC_Helper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lecti\\.nuget\\packages\\inputsimulator\\1.0.4\\inputsimulator.1.0.4.nupkg.sha512",
     "C:\\Users\\lecti\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",

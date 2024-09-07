@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj": {}
+    "C:\\fproj\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj": {
+    "C:\\fproj\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj",
+        "projectUniqueName": "C:\\fproj\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj",
         "projectName": "DrawNet_WPF",
-        "projectPath": "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj",
+        "projectPath": "C:\\fproj\\SIC_Helper\\DrawNet_WPF\\DrawNet_WPF.csproj",
         "packagesPath": "C:\\Users\\lecti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lecti\\Desktop\\LocalProjects\\SIC_Helper\\DrawNet_WPF\\obj\\",
+        "outputPath": "C:\\fproj\\SIC_Helper\\DrawNet_WPF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

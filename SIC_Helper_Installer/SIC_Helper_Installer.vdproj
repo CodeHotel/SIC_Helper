@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_6DE9D96BE4074F8E9923E9BD3AFBBBF7"
+        "MsmKey" = "8:_10ED416EA4A54C7F8E30732EFC44CF47"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -43,6 +43,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.NetCore.CoreRuntime.6.0.x64"
+                    {
+                    "Name" = "8:.NET Runtime 6.0.30 (x64)"
+                    "ProductCode" = "8:Microsoft.NetCore.CoreRuntime.6.0.x64"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -59,6 +75,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -118,7 +150,7 @@
         {
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_0369D8519C4F45778A6B3C88D4B17566"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:TRUE"
             "Condition" = "8:"
@@ -165,22 +197,22 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:SIC_Helper"
-        "ProductCode" = "8:{9BE067F0-9D84-47F4-AC26-DD3EEA7ACDA0}"
-        "PackageCode" = "8:{BCDD852C-029D-4741-B748-3D7D84F0F227}"
+        "ProductName" = "8:Umjun_SIC"
+        "ProductCode" = "8:{EA099ED1-42E0-4C69-AA84-D6AFE5E4CCF1}"
+        "PackageCode" = "8:{436318FD-B219-41FB-ABA2-37C7EC3D9894}"
         "UpgradeCode" = "8:{B7D76D0E-2DA6-447A-AA71-2DE6FC093879}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "InstallAllUsers" = "11:TRUE"
+        "ProductVersion" = "8:1.1.0"
         "Manufacturer" = "8:CodeHotel"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:SIC_Helper_Installer"
+        "Title" = "8:UmjunSIC_Installer"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:CodeHotel"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -188,7 +220,7 @@
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:0"
+        "TargetPlatform" = "3:1"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
@@ -287,29 +319,29 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1EEA5229D2F84ABFBBACAE1509A38D30"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_36B463EAEC07498F84BD790ADD41E908"
             {
-            "Name" = "8:SIC헬퍼"
+            "Name" = "8:엄준SIC"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_6DE9D96BE4074F8E9923E9BD3AFBBBF7"
+            "Target" = "8:_10ED416EA4A54C7F8E30732EFC44CF47"
             "Folder" = "8:_2BAE1159841345BEB6CD7E6814E0ED54"
             "WorkingFolder" = "8:_0369D8519C4F45778A6B3C88D4B17566"
             "Icon" = "8:_A46A56CD754B42F2930277F6ECD7723D"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F89ECAC85FA64A72B8656B81938F6985"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_AA9A62108A00415C9901698DE4F61CF2"
             {
-            "Name" = "8:SIC헬퍼"
+            "Name" = "8:엄준SIC"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_6DE9D96BE4074F8E9923E9BD3AFBBBF7"
+            "Target" = "8:_10ED416EA4A54C7F8E30732EFC44CF47"
             "Folder" = "8:_748AD573F59F4D46AD4CB2812638E6EE"
             "WorkingFolder" = "8:_0369D8519C4F45778A6B3C88D4B17566"
             "Icon" = "8:_A46A56CD754B42F2930277F6ECD7723D"
@@ -328,7 +360,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_D1AC922E8C684EA595CA731F29E926DA"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:마침"
+                    "DisplayName" = "8:Finished"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
@@ -359,7 +391,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_4FC9EF985CC94604A9194E7B4B960B00"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:진행률"
+                    "DisplayName" = "8:Progress"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
@@ -409,7 +441,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_AF5FD556DC9F4E3F8AE8EE4050DB1283"
                     {
                     "Sequence" = "3:200"
-                    "DisplayName" = "8:설치 폴더"
+                    "DisplayName" = "8:Installation Folder"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
@@ -431,7 +463,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_DD2024D6A8304832B98C4C75550BDFE5"
                     {
                     "Sequence" = "3:300"
-                    "DisplayName" = "8:설치 확인"
+                    "DisplayName" = "8:Confirm Installation"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
@@ -453,7 +485,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_F86D8570622A42D7836E5A66FAE1AF9F"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:환영"
+                    "DisplayName" = "8:Welcome"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminWelcomeDlg.wid"
@@ -510,7 +542,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_4266D8DF51F84F35850E8EFE9B68D8D2"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:마침"
+                    "DisplayName" = "8:Finished"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"
@@ -554,7 +586,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_1224C5EBCAD44D61BC6E4DC35494BA0C"
                     {
                     "Sequence" = "3:200"
-                    "DisplayName" = "8:설치 폴더"
+                    "DisplayName" = "8:Installation Folder"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
@@ -589,7 +621,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_BA3F912B612B438882F46E8AC225A502"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:환영"
+                    "DisplayName" = "8:Welcome"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
@@ -637,7 +669,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_BB04DE089FCC4F2FB572084BEDEF95E0"
                     {
                     "Sequence" = "3:300"
-                    "DisplayName" = "8:설치 확인"
+                    "DisplayName" = "8:Confirm Installation"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
@@ -668,7 +700,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_BEE77736F0A2446EA5DF7F4D09AA21F2"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:진행률"
+                    "DisplayName" = "8:Progress"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminProgressDlg.wid"
@@ -714,9 +746,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_6DE9D96BE4074F8E9923E9BD3AFBBBF7"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_10ED416EA4A54C7F8E30732EFC44CF47"
             {
-            "SourcePath" = "8:..\\SIC_Helper\\obj\\Release\\net6.0-windows\\apphost.exe"
+            "SourcePath" = "8:..\\SIC_Helper\\obj\\x64\\Release\\net6.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_0369D8519C4F45778A6B3C88D4B17566"
@@ -742,7 +774,7 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D687BFCAC80542CBA4A2FB99B9EB4688"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_2111362DBB5643A888F249DF9E030CC2"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"
